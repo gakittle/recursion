@@ -46,7 +46,6 @@ var stringifyJSON = function(obj) {
 					return str + '}';
 				}
 				str === '{' ? str : str+= ',';
-				console.log(obj[key]);
 				if (obj[key] !== undefined) {
 					str += stringifyJSON(key) + ':' + stringifyJSON(obj[key]);
 				}
