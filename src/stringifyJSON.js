@@ -4,26 +4,6 @@
 // but you don't so you're going to write it from scratch:
 
 var stringifyJSON = function(obj) {
-	//input: some object
-	// var str
-	// if it's an object
-		// if it's an array
-			// str += '[];'
-			// return str + call function again
-
-		// else 
-			// str += '{}';
-			// return str + call function again
-		    // for var key in obj
-		    	// if obj[key] exists
-		    		// call function on key
-
-	// for not objects, pass whole argument into stringify
-		// else return argument.toString()
-	// if typeof(obj) === 'function'??????????
-	// base case: have reached end of obj ( } ), stop recursing
-	//output: return some string plus stringifyJSON(rest of argument)
-
 	var str = '';
 	if (obj === null) {
 		return 'null';

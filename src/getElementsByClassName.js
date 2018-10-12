@@ -4,24 +4,7 @@
 // };
 
 // But instead we're going to implement it from scratch:
-var getElementsByClassName = function(className
-) {
-  // document.body, element.childNodes, and element.classList
-
-  // input: className
-  //elementsByClass = [];
-  // select document.body
-
-  // for some random element, do the following:
-  	// for each of that element's children:
-  		// if element.classList _.contains className
-  		  // elementsByClass.push(element)
-  		// return elementsByClass.concat(other call of function(element.childNodes));
-  // output: HTML collection (array?) of <div>.className
-
-
-  // base case: no child nodes or element does not have class in classList
-
+var getElementsByClassName = function(className) {
   elementsByClass = [];
   var htmlCollect = function (el) {
   	var classes = el.classList;
